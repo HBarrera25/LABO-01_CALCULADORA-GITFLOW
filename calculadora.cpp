@@ -21,8 +21,12 @@ int main(){
         cout << "0. Salir" << endl;
         cin >> opcion;
 
-      
-    }
-    
+      if(opcion >= 1 && opcion <= 4){
+            cout << "Ingrese el primer numero: ";
+            cin >> num1;
+            cout << "Ingrese el segundo numero: ";
+            cin >> num2;
+        }
+
 }
 
